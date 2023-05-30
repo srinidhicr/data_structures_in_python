@@ -1,4 +1,4 @@
-"""a python code of linked list by srinidhi cr
+"""a python code of singly linked list by srinidhi cr
 includes creation, insertion and deletion of nodes
 - 26 sep 2022
 - for leetcode practice"""
