@@ -67,7 +67,6 @@ if __name__ == '__main__':
     root.right = Node(3)
     root.left.left = Node(5)
     root.right.right = Node(4)
-    insert(root, 12)
 
     inorder(root)
     print("\n")
