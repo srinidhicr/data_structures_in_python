@@ -89,3 +89,14 @@ if __name__ == '__main__':
     circList.del_end()
 
     circList.printList()
+
+
+    """
+    Memory efficient circular linked list:
+    -> based on pointer difference
+    -> alternate implementation of double ll
+    -> ptr_diff = prev_ptr ^ next_ptr
+    -> eg: ll : a->b->c->d ; ptr_diff(a) = null ^ b; ptr_diff(b) = a ^ c ; ptr_diff(c) = b ^ d ; ptr_diff(d) = c ^ null
+    -> from c we can move to b by - ptr_diff(c) ^ next_ptr(c) = b ^ d ^ d = b => hence accessed
+
+    """
